@@ -1,8 +1,7 @@
-
 plot1((MinMove / PriceScale) * BigPointValue,"Price/tick move");
 Plot2(BigPointValue,"BigPointValue");
 plot3(minmove,"MinMove");
 Plot4(1/PriceScale,"PriceScale");
 Plot5(description,"Sottostante",white);
-plot6(CurrentAsk+14,"Current Ask");
+plot6(CurrentAsk,"Current Ask");
 Plot7(MinMove / PriceScale,"Tick",white);
